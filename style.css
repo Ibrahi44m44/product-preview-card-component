@@ -162,7 +162,6 @@ main {
 
 .card .buy {
     margin-left: var(--margin-left);
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,7 +170,9 @@ main {
     border-radius: 10px;
 }
 
-.card .buy img {}
+.card .buy:hover {
+    background-color: var(--Green-700);
+}
 
 .card .buy a {
     text-decoration: none;
